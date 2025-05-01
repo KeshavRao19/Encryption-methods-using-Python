@@ -7,7 +7,7 @@ from Crypto.PublicKey import RSA
 from Crypto.Random import get_random_bytes
 import base64
 
-# ---------------- Utility Functions ---------------- #
+# ---------------- Encryption Functions ---------------- #
 def xor_cipher(text, key):
     return ''.join(chr(ord(c) ^ ord(key)) for c in text)
 
