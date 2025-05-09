@@ -157,4 +157,4 @@ elif method == "RSA":
 
 # Footer
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit | Part of my Cybersecurity Projects Portfolio")
+st.caption("Use the sidebar to switch between encryption methods | Built using Streamlit | Part of my Cybersecurity Projects Portfolio")
